@@ -1,0 +1,15 @@
+db:
+  host: 127.0.0.1
+  username: root
+  password: 123456
+rb:
+  host: 127.0.0.1
+  port: 6379
+  password: 123456
+  database: 5
+
+jwt:
+  location: classpath:hmall.jks
+  alias: hmall
+  password: hmall123
+  tokenTTL: 30m
