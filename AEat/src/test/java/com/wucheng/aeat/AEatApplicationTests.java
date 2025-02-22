@@ -17,6 +17,10 @@ class AEatApplicationTests {
         String p=b.encode("123456");
         System.out.println(p);
     }
+    @Test
+    void test1(){
+        System.out.println("提交到git");
+    }
 
 
 }
