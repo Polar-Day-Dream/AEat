@@ -18,6 +18,15 @@ class AEatApplicationTests {
         System.out.println(p);
     }
     @Test
+    void test1(){
+        System.out.println("提交到git");
+    }
+    @Test
+    void test2(){
+        System.out.println("测试git分支");;
+    }
+
+    @Test
     void gitMainTest(){
         System.out.println("测试main分支");
     }
