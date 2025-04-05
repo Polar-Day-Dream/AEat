@@ -17,6 +17,9 @@ class AEatApplicationTests {
         String p=b.encode("123456");
         System.out.println(p);
     }
-
+    @Test
+    void gitMainTest(){
+        System.out.println("测试main分支");
+    }
 
 }
