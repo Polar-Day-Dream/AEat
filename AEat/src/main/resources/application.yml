@@ -4,9 +4,9 @@ spring:
   profiles:
     active: local
   datasource:
-    url: jdbc:mysql://${db.host}:3306/aeat?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-    username: ${db.username}
-    password: ${db.password}
+    url: jdbc:mysql://${ds.db.host}:3306/aeat?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: ${ds.db.username}
+    password: ${ds.db.password}
     driver-class-name: com.mysql.cj.jdbc.Driver
     hikari:
       minimum-idle: 3
