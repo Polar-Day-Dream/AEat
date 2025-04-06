@@ -23,7 +23,8 @@ class AEatApplicationTests {
     }
     @Test
     void test2(){
-        System.out.println("测试git分支");;
+        System.out.println("测试git分支");
+        System.out.println("000000000002222");
     }
 
 
