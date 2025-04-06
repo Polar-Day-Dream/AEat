@@ -39,6 +39,7 @@ class AEatApplicationTests {
     @Test
     void gitTest1(){
         System.out.println("git测试分支dev");
+        System.out.println("第一个提交");
         System.out.println("第二次提交");
     }
 
