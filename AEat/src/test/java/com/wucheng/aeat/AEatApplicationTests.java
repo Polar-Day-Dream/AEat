@@ -48,4 +48,9 @@ class AEatApplicationTests {
         System.out.println("测试main分支");
     }
 
+    @Test
+    void gitmergetest(){
+        System.out.println("wucheng开发完成提交的dev-wucheng2");
+    }
+
 }
