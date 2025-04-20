@@ -48,5 +48,9 @@ class AEatApplicationTests {
         System.out.println("测试main分支");
     }
 
+    @Test
+    void kkkkMergeTest(){
+        System.out.println("kkkk分支merge到future");
+    }
 
 }
