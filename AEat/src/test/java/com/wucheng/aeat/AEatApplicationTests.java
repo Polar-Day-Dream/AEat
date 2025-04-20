@@ -49,8 +49,8 @@ class AEatApplicationTests {
     }
 
     @Test
-    void gitmergetest(){
-        System.out.println("wucheng开发完成提交的dev-wucheng2");
+    void OneMergeTest(){
+        System.out.println("one分支合并到future");
     }
 
 }
