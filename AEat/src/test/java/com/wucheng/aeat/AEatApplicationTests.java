@@ -47,10 +47,15 @@ class AEatApplicationTests {
     void gitMainTest(){
         System.out.println("测试main分支");
     }
-
     @Test
     void OneMergeTest(){
-        System.out.println("one分支合并到future");
-    }
+        System.out.println("kkkk分支merge到future");
+     }
+
+     @Test
+     void kkkkMergeTest(){
+         System.out.println("one分支合并到future");
+     }
+
 
 }
